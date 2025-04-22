@@ -1,0 +1,527 @@
+.home-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.carousel-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hero-section {
+  background-color: #f2f2f2;
+  padding: 80px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 600px);
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  color: #0a0a6e;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-content p {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.our-projects-button {
+  background-color: #0a0a6e;
+  color: white;
+  padding: 15px 35px;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: fit-content;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.our-projects-button:hover {
+  background-color: #02024b;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.services-section {
+  padding: 80px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.service-card {
+  background-color: white;
+  padding: 30px;
+  width: 90%;
+  max-width: 320px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service-card svg {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: #0a0a6e;
+  transition: color 0.3s ease;
+}
+
+.service-card:hover svg {
+  color: #02024b;
+}
+
+.featured-properties {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.property-cards {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.property-card {
+  width: 90%;
+  max-width: 380px;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.property-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.property-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+  transition: transform 0.3s ease;
+}
+
+.property-card:hover img {
+  transform: scale(1.05);
+}
+
+.property-card h3 {
+  margin: 20px 0 15px;
+  font-size: 1.3rem;
+  color: #0a0a6e;
+  letter-spacing: 1px;
+}
+
+.property-card p {
+  padding: 0 20px 25px;
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.7;
+}
+
+.stats-section {
+  padding: 80px 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.stat h2 {
+  font-size: 3rem;
+  color: #0a0a6e;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.stat p {
+  font-size: 1.2rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.appointment-section {
+  background-color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.appointment-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.appointment-section h2 {
+  font-size: 2.5rem;
+  color: #0a0a6e;
+  margin-bottom: 20px;
+}
+
+.appointment-section p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.book-appointment-button {
+  background-color: #0a0a6e;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-appointment-button:hover {
+  background-color: #02024b;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.promise-section {
+  background-color: #f8f8f8;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.promise-section h2 {
+  font-size: 2.5rem;
+  color: #0a0a6e;
+  margin-bottom: 30px;
+}
+
+.promise-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.promise-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 350px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.promise-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.promise-card .icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: #0a0a6e;
+  transition: color 0.3s ease;
+}
+
+.promise-card:hover .icon {
+  color: #02024b;
+}
+
+.promise-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.promise-card p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+.testimonial-section {
+  background-color: #eeeeee;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.testimonial-section h2 {
+  font-size: 2.5rem;
+  color: #0a0a6e;
+  margin-bottom: 30px;
+}
+
+.testimonial-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  font-style: italic;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.testimonial-card h4 {
+  margin-top: 25px;
+  font-size: 1.3rem;
+  color: #0a0a6e;
+  text-align: right;
+  font-weight: 600;
+}
+
+.newsletter-section {
+  padding: 80px 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.newsletter-section h2 {
+  font-size: 2.5rem;
+  color: #0a0a6e;
+  margin-bottom: 30px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.newsletter-form input {
+  padding: 15px;
+  border: 1px solid #ddd;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  width: 350px;
+  box-sizing: border-box;
+  flex: 1;
+  min-width: 250px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+.newsletter-form input:focus {
+  border-color: #0a0a6e;
+  box-shadow: 0 0 0 2px rgba(10, 10, 110, 0.1);
+}
+
+.newsletter-form button {
+  background-color: #0a0a6e;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-form button:hover {
+  background-color: #3466e4;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .carousel-image {
+    height: 70vh;
+  }
+
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+
+  .promise-card {
+    width: 90%;
+    max-width: 90%;
+  }
+
+  .property-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-image {
+    height: 60vh;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+
+  .promise-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stats-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .newsletter-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .newsletter-form input,
+  .newsletter-form button {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .property-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .property-card {
+    width: 100%;
+    margin-bottom: 30px;
+    max-width: none;
+  }
+
+  .book-appointment-button,
+  .our-projects-button {
+    width: 100%;
+  }
+
+  .service-card {
+    min-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .service-cards {
+    gap: 10px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .carousel-image {
+    height: 50vh;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p,
+  .appointment-section p {
+    font-size: 1rem;
+  }
+
+  .book-appointment-button,
+  .our-projects-button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+
+  .property-card img {
+    height: 200px;
+  }
+
+  .newsletter-section {
+    padding: 60px 10px;
+  }
+
+  .newsletter-form input {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .newsletter-form button {
+    font-size: 1rem;
+    padding: 12px 25px;
+  }
+
+  .promise-card {
+    padding: 20px;
+  }
+}
+
+.services-section h2 {
+  font-size: 20px;
+}
+
+.service-card {
+  padding: 15px;
+}
+
+.service-card svg {
+  font-size: 30px;
+}
+
+.service-card h3 {
+  font-size: 16px;
+}

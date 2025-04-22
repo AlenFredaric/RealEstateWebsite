@@ -1,0 +1,148 @@
+.about-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-hero-section {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../assets/SliderImage.jpg') center/cover no-repeat;
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.about-hero-content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.about-hero-content p {
+  font-size: 1.2rem;
+}
+
+.mission-vision-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.mission, .vision {
+  flex: 1 1 300px;
+  margin: 20px;
+}
+
+.mission h2, .vision h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.why-us-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.why-us-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.why-us-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  flex: 1 1 250px;
+  max-width: 320px;
+  text-align: center;
+}
+
+.why-us-card .icon {
+  font-size: 2rem;
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+.team-section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.team-member {
+  flex: 1 1 200px;
+  max-width: 250px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.team-member h4 {
+  margin: 10px 0 5px;
+}
+
+.team-member p {
+  color: #777;
+}
+
+.contact-cta-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #e0e4ea;
+  color: rgb(75, 128, 215);
+}
+
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  color: #0d6efd;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.contact-button:hover {
+  background: #f1f1f1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .why-us-cards, .team-members, .mission-vision-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .why-us-card, .team-member {
+    max-width: 90%;
+  }
+}
